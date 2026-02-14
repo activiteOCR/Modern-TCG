@@ -46,11 +46,12 @@ export default function TechSection() {
         </motion.div>
 
         {/* Tech cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 mt-12 sm:mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mt-12 sm:mt-16">
           {[
             { title: 'NFC', description: 'Rare cards will use the NFC protocol with the same level of security as a bank card.' },
             { title: 'On-Chain Identity', description: 'Special cards will embed a crypto-engine capable of signing any EVM transaction.' },
             { title: 'AI Companions', description: 'Powered by the ElizaOS framework, each Beast becomes an AI agent and a true companion for the player.' },
+            { title: 'Unity Mobile Game', description: 'Your Beasts come to life in a Unity mobile game, directly linked to your physical cards.' },
           ].map((item, index) => (
             <motion.div
               key={item.title}
