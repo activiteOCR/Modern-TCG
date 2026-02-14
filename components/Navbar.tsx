@@ -29,7 +29,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/EB_logo.png" alt="EB-TCG Logo" className="h-10 sm:h-14" />
+          <img src="/images/EB_logo.png" alt="Modern-TCG Logo" className="h-10 sm:h-14" />
         </a>
 
         {/* Desktop links */}

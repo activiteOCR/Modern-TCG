@@ -35,7 +35,7 @@ export default function Hero() {
             className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 tracking-tight"
           >
             <span className="bg-gradient-to-r from-green-400 via-emerald-500 to-cyan-500 bg-clip-text text-transparent">
-              EB - TCG
+              Modern - TCG
             </span>
           </motion.h1>
 

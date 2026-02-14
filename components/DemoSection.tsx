@@ -42,7 +42,7 @@ export default function DemoSection() {
             <div className="relative w-full" style={{ paddingBottom: '178%' }}>
               <iframe
                 src="https://www.youtube.com/embed/EO4DftdwFIc"
-                title="EB-TCG Demo"
+                title="Modern-TCG Demo"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="absolute inset-0 w-full h-full rounded-xl"

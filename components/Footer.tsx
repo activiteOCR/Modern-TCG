@@ -8,13 +8,13 @@ export default function Footer() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/EB_logo.png"
-          alt="EB-TCG Logo"
+          alt="Modern-TCG Logo"
           className="h-20 sm:h-32"
         />
 
         {/* Copyright */}
         <p className="text-gray-400 text-base sm:text-xl">
-          &copy; {new Date().getFullYear()} EB-TCG. All rights reserved.
+          &copy; {new Date().getFullYear()} Modern-TCG. All rights reserved.
         </p>
       </div>
     </footer>

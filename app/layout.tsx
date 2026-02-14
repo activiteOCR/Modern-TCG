@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EB-TCG",
+  title: "Modern-TCG",
   description: "The first Trading Card Game with NFC crypto-engine cards, Unity mobile gameplay, and AI companions powered by ElizaOS. Experience the future of collectible card games.",
   keywords: ["TCG", "Trading Card Game", "NFC", "Blockchain", "Crypto", "AI", "ElizaOS", "Unity", "Elemental Beasts"],
   openGraph: {
-    title: "EB-TCG",
+    title: "Modern-TCG",
     description: "NFC cards with crypto-engine, Unity mobile game, and AI companions.",
     type: "website",
   },
