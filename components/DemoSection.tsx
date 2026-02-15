@@ -5,9 +5,15 @@ import { motion } from 'framer-motion'
 export default function DemoSection() {
   return (
     <section className="relative py-24 bg-black overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-slate-950 to-black" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(16,185,129,0.05)_0%,transparent_50%)]" />
+      {/* Background Image */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/images/Illustration_AquaBeast.png"
+        alt="Background"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-black/70" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section header */}
