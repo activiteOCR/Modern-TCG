@@ -8,7 +8,6 @@ const cards = [
   { id: 2, name: 'AquaBeast', front: '/images/AquaBeast_Card.png' },
   { id: 3, name: 'PyroBeast', front: '/images/Card_V2_02.png' },
   { id: 4, name: 'TerraBeast', front: '/images/TerraBeast_Card (1).png' },
-  { id: 5, name: 'WildBeast', front: '/images/WildBeast_Card (1).png' },
 ]
 
 const cardBack = '/images/Background_Card.png'
@@ -106,7 +105,7 @@ export default function CardGallery() {
         </motion.div>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto">
           {cards.map((card, index) => (
             <FlipCard key={card.id} card={card} index={index} />
           ))}
